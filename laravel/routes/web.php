@@ -17,6 +17,6 @@ Route::get('/', function () {
     $saluto = [
         'saluto' => 'ciao',
         'per' => 'tutti'
-    ]
-    return view('welcome');
+    ];
+    return view('welcome',$saluto);
 });

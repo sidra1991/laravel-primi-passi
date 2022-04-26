@@ -8,6 +8,6 @@
 </head>
 <body>
     <head> <a href=""> ciao 2 </a>  <a href="">ciao 3</a> </head>
-    <h1>ciao a tutti</h1>
+    <h1>{{ $saluto }} a {{ $per }}</h1>
 </body>
 </html>
