@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    $saluto = [
+        'saluto' => 'ciao',
+        'per' => 'tutti'
+    ]
     return view('welcome');
 });
