@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header> <a href="{{ route(paguno)}}"> ciao 2 </a>  <a href="{{ route(paguno)}}">ciao 3</a> </header>
+    <header> <a href="{{ route('paguno')}}"> ciao 2 </a>  <a href="{{ route('paguno')}}">ciao 3</a> </header>
     <h1>{{ $saluto }} a {{ $per }}</h1>
 </body>
 </html>
