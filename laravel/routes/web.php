@@ -20,3 +20,11 @@ Route::get('/', function () {
     ];
     return view('welcome',$saluto);
 });
+
+route::get('/paguno', function () {
+    return view('paguno');
+})->name('paguno');
+
+route::get('/pagdue', function () {
+    return view('pagdue');
+})->name('pagdue');
